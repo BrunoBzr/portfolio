@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(168, 212, 171);
+}
+
+header{
+    background-color: rgb(84, 114, 91);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 400px;
+    color: rgb(194, 210, 224);
+}
+
+.sec{
+    margin-top: 20px;
+}
+p{
+    margin: 15px;
+}
